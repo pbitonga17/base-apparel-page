@@ -85,6 +85,9 @@ form {
     width: 80%;
     margin: 0 auto;
 }
+input:-webkit-autofill { 
+    -webkit-background-clip: text;
+}
 #submit {
     background-color: hsl(0, 93%, 68%);
     padding: 15px 24px;
